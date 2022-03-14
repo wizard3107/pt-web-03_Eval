@@ -1,0 +1,21 @@
+.counter_btn{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 1em;
+}
+
+.Vegeies{
+    background-color:gray;
+    color: white;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.heading{
+    font-size:50px;
+    font-weight: 800;
+    width: fit-content;
+    background-color: black;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: -0.5em;
+}

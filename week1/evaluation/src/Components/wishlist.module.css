@@ -4,3 +4,41 @@ display: block;
 .disp_none{
     display: none;
 }
+.input_fld{
+    height: 2em;
+    border: 0;
+    border-radius: 6px;
+    font-size:medium;
+    font-weight: 600;
+    margin-left: 1em;
+}
+.btn{
+     font-size: large;
+    font-weight: 600;
+    margin-left: 1em;
+    height: 2em;
+    border: 0;
+    border-radius: 6px;
+    width: 100px;
+}
+.wishlist{
+    padding: 2em;
+    background-color: grey;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.wishes{
+      font-size:medium;
+    font-weight: 600;
+    margin-left: 1em;
+    
+}
+.heading{
+    font-size:50px;
+    font-weight: 800;
+    width: fit-content;
+    background-color: black;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: -0.5em;
+}
