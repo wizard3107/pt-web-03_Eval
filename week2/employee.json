@@ -39,14 +39,6 @@
       "role": "Manager",
       "salary": 70060,
       "id": 5
-    },
-    {
-      "name": "",
-      "dept": "",
-      "gender": "",
-      "role": "",
-      "salary": 0,
-      "id": 6
     }
   ]
 }
