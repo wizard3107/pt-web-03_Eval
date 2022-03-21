@@ -1,0 +1,59 @@
+.emp_card{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns:30% 66%;
+    column-gap: 4%;
+    background-color:grey;
+    color: white;
+    text-transform:capitalize;
+
+}
+.emp_filter{
+    margin-top:2em;
+    margin-left: 2em;
+}
+.emp_filter>*{
+    margin-right: 1em;
+    height: 2em;
+    font-size: larger;
+    font-weight: 600;
+}
+.emp_sort{
+    margin-top: 2em;
+    margin-left: 2em;
+
+}
+.emp_sort>*{
+    margin-right: 1em;
+    height: 2em;
+    font-size: larger;
+    font-weight: 600;
+}
+.emp_input{
+    margin-top:1em;
+    margin-left: 2em;
+    width: 400px;
+}
+.emp_input>input{
+    width: 400px;
+    height: 2em;
+    margin-top: .5em;
+    font-size: larger;
+    font-weight: 600;
+
+}
+.emp_input>button{
+     width: 200px;
+    height: 2em;
+    margin-top: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    font-weight: 600;
+}
