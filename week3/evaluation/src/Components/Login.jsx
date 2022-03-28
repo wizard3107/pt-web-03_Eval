@@ -31,10 +31,10 @@ const Login = () => {
 
     return (
         <div className={styles.login}>
-            <form onSubmit={login_Handle}>
-            <input type="text" name="username" placeholder='Username' onChange={(e) => changeHandler(e)} />
-            <input type="password" name="password" placeholder='Password' onChange={(e) => changeHandler(e)} />
-            <input type="submit" value="Login" />
+            <form onSubmit={login_Handle} className={styles.form}>
+            <input type="text" name="username" className={styles.input} placeholder='Username' onChange={(e) => changeHandler(e)} />
+            <input type="password" name="password" className={styles.input} placeholder='Password' onChange={(e) => changeHandler(e)} />
+            <input type="submit" value="Login" className={styles.submit} />
             </form>
         </div>
     )
