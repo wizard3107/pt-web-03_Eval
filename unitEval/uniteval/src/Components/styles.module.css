@@ -1,0 +1,86 @@
+.navbar {
+  height: 4em;
+  background-color: rgb(83, 79, 79);
+  display: flex;
+}
+.NavLink {
+  margin: 10px;
+  padding: 10px 5px 10px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: white ;
+  border-radius: 5px;
+  border: 0px solid white;
+  color: black;
+  text-decoration: none;
+}
+link:hover {
+  background-color: white;
+  color: rgb(14, 186, 213);
+  transition: font-size 4s 2s;
+}
+.heading {
+  color: rgb(14, 186, 213);
+  font-size: 3em;
+  font-weight: 650;
+  text-align: center;
+}
+.form {
+  width: 30%;
+  margin: auto;
+  background-color: black;
+}
+.input {
+  width: 90%;
+  padding:10px;
+  margin-bottom:5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.submitBtn {
+  margin: 8px;
+  padding: 8px;
+  width: 200px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(34, 100, 110);
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+}
+.submitBtn:hover {
+  background-color: white;
+  color: rgb(34, 100, 110);
+  transition: font-size 3s 5s;
+}
+.detailsConatiner{
+  background-color: black;
+  border-radius: 6px;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 240px;
+  
+}
+.H3{
+  padding: 8px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(34, 100, 110);
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+}
+.formContainer{
+  width:30%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(83, 79, 79);
+  border: 1px solid black;
+  padding: 2em;
+  margin-top: 5em;
+}
