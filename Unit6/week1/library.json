@@ -1,0 +1,6 @@
+[
+    {
+        "route": "/library",
+        "permission":true
+    }
+]
