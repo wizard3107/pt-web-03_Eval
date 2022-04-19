@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "name": "Ashish singh",
+      "age": "21",
+      "mobile": "1234567890",
+      "Salary": "9111111",
+      "department": "IT",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "name": "Ashish",
+      "age": "21",
+      "mobile": "654654465",
+      "Salary": "8",
+      "department": "HR",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "name": "ashu",
+      "age": "21",
+      "mobile": "1234567890",
+      "Salary": "5683665",
+      "Gender": "M",
+      "Department": "Marketting",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "age": "12",
+      "mobile": "485123546",
+      "Salary": "456231",
+      "id": 4
+    },
+    {
+      "name": "ashi",
+      "id": 5
+    }
+  ]
+}
