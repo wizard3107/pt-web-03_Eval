@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs")
 const bookSchema = new mongoose.Schema({
-    content: { type: String, required: true, minlength: 1, maxlength: 30 },
+    content: { type: String, required: true },
     likes: { type: String, required: false, default:0 },
     coverImage: { type: String, required: true },
-    user:{type:mongoose.Schema.Types.ObjectId,ref:"user",required:true}
+    author:{type:mongoose.Schema.Types.ObjectId,ref:"user",required:true}
 
 },
     {

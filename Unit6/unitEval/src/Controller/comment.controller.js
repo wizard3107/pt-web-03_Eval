@@ -6,6 +6,9 @@ const commentController = crudController(Comment)
 
 
 
-router.get("/", commentController.getAll)
 router.post("/", commentController.post)
+router.get("/", async (req, res) => {
+    const comment = await Comment.find().populate('commentor').populate('book')
+    res.status(200).json(comment)
+})
 module.exports = router

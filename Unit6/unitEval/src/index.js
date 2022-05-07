@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors")
 const mongoose = require("mongoose");
 const port = 8005
-const DB_url = "mongodb+srv://Ashish8923:ashu_8923@unacademy.upire.mongodb.net/Unacademy?retryWrites=true&w=majority"
+const DB_url = "mongodb+srv://ashish8923:ashu_8923@cluster0.x3dd0.mongodb.net/unitEval?retryWrites=true&w=majority"
 
 
 const userController = require("./Controller/user.controller")
